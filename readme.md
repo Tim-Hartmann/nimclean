@@ -6,6 +6,21 @@ Don't you just hate it when you are working away on your nim project and all tho
 
 You're in luck! Nimclean will wipe away all files that have an associated .nim file so that your workspace may be clean again.
 
+Before
+```
+main.nim
+main
+util.nim
+util
+stuff.nim
+stuff
+```
+After
+```
+main.nim
+util.nim
+stuff.nim
+```
 ## Installation
 Just clone this repository and run `nimble install`.
 
